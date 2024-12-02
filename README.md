@@ -57,6 +57,8 @@ Data spans several years, emphasizing seasonal water demand patterns and infrast
 ## Visualizations and Insights for Each Dashboard Page
 
 ### 1. **Water Accessibility Overview**
+### 1. Water Accessibility Overview
+
 **Description:**  
 This page provides insights into water accessibility across provinces. Key metrics include the percentage of the population served by various water source types and comparisons between rural and urban areas. Visuals such as bar charts and maps highlight disparities in water accessibility and identify underserved regions.
 
