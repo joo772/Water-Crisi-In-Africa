@@ -1,7 +1,7 @@
 # Maji Ndogo Water Access and Infrastructure Project Analysis
 
-**Prepared by:** [Your Name]  
-**Date:** [Today’s Date]  
+**Prepared by:** [Yousef Emad Eldin]  
+**Date:** [3/12/2024]  
 
 ---
 
@@ -39,6 +39,32 @@ Data spans several years, emphasizing seasonal water demand patterns and infrast
 
 ---
 
+## Data Overview
+
+The data is organized into several key tables that represent different aspects of the water infrastructure and populations served. Below is an overview of the data structure:
+
+### Tables
+
+- **`water_sources`**: This table contains information about various types of water sources and the populations they serve. Key columns in this table include:
+  - **`type_of_water_source`**: Describes the type of water source (e.g., shared tap, well, tap in home).
+  - **`population_served`**: Represents the number of people served by each water source type.
+
+- **`auditor_report`**: This table includes reports from auditors who assess water sources, infrastructure, or related conditions. It captures the results of these assessments, including scores and any observations.
+
+- **`visits`**: Tracks visits to locations for monitoring or assessment purposes. This table records the dates and details of these visits.
+
+- **`water_quality`**: Contains records related to the quality of water at various points in the infrastructure. It includes measurements, assessments, and any related observations about water quality.
+
+### Schema Image
+
+Below is an image representing the data schema, showing how the different tables are connected and organized:
+
+![Database Schema](./Dashboard/schema.png)
+
+This schema supports the analysis and reporting of water infrastructure, quality, and the populations served by different water sources.
+
+---
+
 ## Key Metrics and Analytical Approach
 
 ### Key Metrics:
@@ -57,46 +83,58 @@ Data spans several years, emphasizing seasonal water demand patterns and infrast
 ## Visualizations and Insights for Each Dashboard Page
 
 ### 1. **Water Accessibility Overview**
-### 1. Water Accessibility Overview
-
+![Water Accessibility Overview](./Dashboard/1.jpg)  
 **Description:**  
 This page provides insights into water accessibility across provinces. Key metrics include the percentage of the population served by various water source types and comparisons between rural and urban areas. Visuals such as bar charts and maps highlight disparities in water accessibility and identify underserved regions.
 
 ---
 
 ### 2. **Queue Metrics Analysis**
+![Queue Metrics Analysis](./Dashboard/2.jpg)  
 **Description:**  
 This page focuses on average queue times at shared taps, segmented by days of the week and hours of the day. Additional insights include the demographic composition of queue participants (male, female, children) and queue metrics per province.
 
 ---
 
 ### 3. **Water Pollution Analysis**
+![Water Pollution Analysis](./Dashboard/3.jpg)  
 **Description:**  
 This page examines water pollution across provinces. Visuals display pollution types (chemical, biological, clean) and specific contaminants affecting water quality. It also provides insights into the number of people affected in each province.
 
 ---
 
 ### 4. **Victim and Crime Data**
+![Victim and Crime Data](./Dashboard/4.jpg)  
 **Description:**  
 This section analyzes affected gender groups and crime types related to water access issues. Key visuals include crime frequency by gender, day of the week, and hour of the day. Geographical distribution of affected populations is also included.
 
 ---
 
 ### 5. **Population and Improvements**
+![Population and Improvements](./Dashboard/5.jpg)  
 **Description:**  
 This page covers population data and water source improvements by location type (rural or urban). It includes the number of people served per province, types of improvements made, and budget allocation for infrastructure.
 
 ---
 
 ### 6. **Cost and Budget Evaluation**
+![Cost and Budget Evaluation](./Dashboard/6.jpg)  
 **Description:**  
 This section evaluates project costs against budgets over time. It includes breakdowns by improvement type and province, visualizing cost trends and overall budget adherence.
 
 ---
 
-### 7. **Vendors and Project Assignments**
+### 7. **Cost and Budget Evaluation**
+![Cost and Budget Evaluation](./Dashboard/7.jpg)  
 **Description:**  
-This page highlights vendor performance, including the number of projects assigned, average costs per province, and types of improvements completed by vendors.
+This page highlights vendor performance, including the number of projects assigned and types of improvements completed by vendors. It also includes an overview of the average costs associated with improvements across provinces.
+
+---
+
+### 8. **Vendors Overview**
+![Vendors Overview](./Dashboard/8.jpg)  
+**Description:**  
+This page provides detailed information on vendor assignments, including specific towns, improvement types, and project costs. It also outlines the total cost of projects managed by each vendor and their contributions to overall infrastructure improvements.
 
 ---
 
